@@ -16,8 +16,9 @@
 
 </head>
 <body style="background-image: none;">
+<h1>Helloworld!</h1>
 <div class="body_wrap">
-    <h1>Helloworld!</h1>
+	<jsp:include page="${param.url}" />
 </div>
 </body>
 
